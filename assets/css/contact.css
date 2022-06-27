@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin-left:0;
+    margin-right: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 6rem;
+}
+.nav-links{
+    display: inline;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+.nav-icon{
+margin-top: 19px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    height: 32vh;
+}
+h3{
+    margin-bottom: 2px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;
+}
+.contact-info{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+.info-box{
+    display: flex;
+    justify-content: center;
+    margin-top:10vh ;
+}
+.form{
+    border: 1px solid black;
+}
