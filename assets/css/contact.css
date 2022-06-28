@@ -1,25 +1,30 @@
-*{
+* {
     padding: 0;
-    margin-left:0;
+    margin-left: 0;
     margin-right: 0;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     margin: auto 6rem;
 }
-.nav-links{
+
+.nav-links {
     display: inline;
 }
-.nav-links a{
+
+.nav-links a {
     text-decoration: none;
     color: black;
     margin-right: 25px;
 }
-.nav-icon{
-margin-top: 19px;
+
+.nav-icon {
+    margin-top: 19px;
 }
-.contact{
+
+.contact {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -27,23 +32,56 @@ margin-top: 19px;
     background-color: orangered;
     height: 32vh;
 }
-h3{
+
+h3 {
     margin-bottom: 2px;
 }
-.contact-info a{
+
+.contact-info a {
     text-decoration: none;
     color: black;
     margin-left: 12px;
 }
-.contact-info{
+
+.contact-info {
     list-style-type: none;
     margin-top: 5vh;
 }
-.info-box{
+
+.info-box {
     display: flex;
     justify-content: center;
-    margin-top:10vh ;
+    margin-top: 10vh;
 }
-.form{
-    border: 1px solid black;
+
+.form {
+    width: 31vw;
+    margin-left: 8vw;
+    box-shadow: 3px 3px 18px 6px #eaeaea;
+}
+.info {
+    margin-top: 0;
+}
+input {
+    width: 28vw;
+    height: 2rem;
+    line-height: 8px;
+    padding-left: 12px;
+}
+
+.form-div{
+    margin: 4vh 1vw 4vh 1vw;
+}
+button{
+    margin-top: 2vh;
+    background-color: orangered;
+    width: 29vw;
+    height: 3rem;
+}
+textarea{
+    width: 28vw;
+    padding-left: 12px;
+    line-height: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 15vh;
 }
