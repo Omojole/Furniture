@@ -10,18 +10,28 @@ nav {
     margin: auto 6rem;
 }
 
+h2 {
+    line-height: 8px;
+}
+
 .nav-links {
     display: inline;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7rem;
+    font-weight: 750;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: black;
     margin-right: 25px;
 }
 
 .nav-icon {
     margin-top: 19px;
+    width: 6vw;
+    justify-content: space-between;
+    display: flex;
 }
 
 .contact {
@@ -29,12 +39,16 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: orangered;
+    background-color: rgb(255, 115, 0);
     height: 32vh;
 }
 
 h3 {
     margin-bottom: 2px;
+}
+
+.color {
+    color: rgb(255, 115, 0);
 }
 
 .contact-info a {
@@ -48,20 +62,28 @@ h3 {
     margin-top: 5vh;
 }
 
+.about {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .info-box {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .form {
     width: 31vw;
     margin-left: 8vw;
-    box-shadow: 3px 3px 18px 6px #eaeaea;
+    margin-top: 5vh;
+    box-shadow: 3px 3px 18px 6px #e9e7e7;
 }
+
 .info {
     margin-top: 0;
 }
+
 input {
     width: 28vw;
     height: 2rem;
@@ -69,19 +91,34 @@ input {
     padding-left: 12px;
 }
 
-.form-div{
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 60, 0);
+}
+
+.form-div {
     margin: 4vh 1vw 4vh 1vw;
 }
-button{
+
+button {
     margin-top: 2vh;
-    background-color: orangered;
+    background-color: rgb(255, 115, 0);
     width: 29vw;
     height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
 }
-textarea{
+
+textarea {
     width: 28vw;
     padding-left: 12px;
     line-height: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 15vh;
 }
